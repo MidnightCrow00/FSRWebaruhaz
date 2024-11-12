@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import TermekAdminSor from './TermekAdminSor';
 import { ApiContext } from '../contexts/ApiContext';
+import TermekAdminSor from './TermekekAdminSor';
 
 export default function TermekAdmin() {
 
@@ -10,7 +10,7 @@ export default function TermekAdmin() {
     <>
     <div className='row'>
     {termekLista.map((elem, index) => {
-            return <TermekAdminSor obj={elem} key={index} />;
+            return <TermekAdminSor obj={elem} key={index}  />;
         })}
     </div>
     </>

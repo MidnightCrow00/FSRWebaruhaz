@@ -1,4 +1,5 @@
 import "./App.css"; 
+import TermekAdmin from "./components/TermekekAdmin";
 import Urlap from "./components/Urlap";
 import Public from "./pages/Public";
 
@@ -12,7 +13,7 @@ function App() {
         <main>
           <Urlap/>
         </main>
-
+        <TermekAdmin/>
       </div>
   );
 }

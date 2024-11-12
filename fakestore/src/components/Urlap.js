@@ -58,10 +58,14 @@ export default function () {
             value={adat.description} rows="3" onChange={valtoztatasKezeles} id="description"
           />
         </div>
+
         <button type="submit" className="btn btn-primary">
           Submit
         </button>
       </form>
     </div>
+    // Készíts egy legördülö (select-option) mezőt a Kategóriáknak! A category adatokat végpontról kérdezd le!
+    
+    
   );
 }
