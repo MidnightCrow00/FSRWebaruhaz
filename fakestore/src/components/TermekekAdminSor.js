@@ -11,8 +11,8 @@ export default function TermekAdminSor(props) {
 
   
   const szerkesztes = () => {
-
-    console.log("Szerkesztés: ", props.obj);
+    const updatedList = termekLista.filter(item => item.id !== props.obj.id);
+    setTermekLista(updatedList); 
 
   };
 
